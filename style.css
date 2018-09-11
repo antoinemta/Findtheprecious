@@ -1,0 +1,288 @@
+.carousel-item,.carousel-inner,.carousel
+{
+	position:absolute;
+	width:100%;
+	height:400px;
+}
+
+.slideA
+{
+	position:absolute;
+	width:100%;
+	height:400px;
+	background:url("img/one.png");
+	background-size:100% 100%;
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+}
+
+.slideB
+{
+	position:absolute;
+	width:100%;
+	height:400px;
+	background:url("img/two.png");
+	background-size:100% 100%;
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+}
+
+.slideC
+{
+	position:absolute;
+	width:100%;
+	height:400px;
+	background:url("img/three.png");
+	background-size:100% 100%;
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+}
+
+.imgMedia
+{
+	width:110px;
+	height:110px;
+}
+
+.navbar
+{
+	padding-left:6%;
+	padding-right:100px;
+}
+
+.button,.slit,.aCenter
+{
+	text-align:center;	
+}
+
+table
+{
+   border-collapse: collapse;
+   width:600px;
+   text-align:center;
+}
+
+td,th
+{
+   border: 1px solid black;
+}
+
+.menuxs
+{
+	margin-bottom:20px;
+}
+
+.menuxsImg
+{
+	width:20px;
+	height:20px;
+}
+
+.reward
+{
+	color:black;
+	position:absolute;
+	top:60px;
+	left:87px;
+	padding:8px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius:8px 8px 8px 8px;
+}
+
+.reward1
+{
+	color:white;
+	text-decoration:bold;
+	position:absolute;
+	top:120px;
+	left:75px;
+	font-size:3.0em;
+	
+}
+
+.adventurer
+{
+	color:white;
+	position:absolute;
+	top:200px;
+	left:87px;
+	font-size:1.5em;
+}
+
+.imgadventurer
+{
+  position:absolute;
+  opacity:0.5;
+  top:0px;
+  left:0px;
+}
+
+.adventurer2
+{
+	color:white;
+	position:absolute;
+	top:200px;
+	left:105px;
+	font-size:1.5em;
+}
+
+.adventurer3
+{
+	color:white;
+	position:absolute;
+	top:200px;
+	left:70px;
+	font-size:1.5em;
+}
+
+
+.imgadventurer:hover
+{
+  animation:anime 0.2s linear forwards;
+}
+
+@keyframes anime
+{
+  100%{opacity:1;}
+}
+
+.imgadventurer:hover + span
+{
+  visibility:hidden;
+}
+
+.imgadventurer:hover + span + span
+{
+  animation:animed 0.2s linear forwards;
+}
+
+@keyframes animed
+{
+  100%{font-size:1.0em; top:330px; left:100px;}
+}
+
+.cardRing
+{
+	overflow:hidden;
+	padding-left:17%;
+	margin-bottom:20px;
+}
+
+.cardAlign
+{
+	display:flex;
+	flex-direction:row;
+}
+
+.gollumAlign
+{
+	margin-right:40px;
+	text-align:right;
+}
+
+input,select
+{
+	width:100%;
+	margin-bottom:20px;
+}
+	
+textarea
+{
+	height:130px;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.formu
+{
+	padding-left:80px;
+	padding-right:80px;
+}
+
+.footer
+{	
+	overflow:hidden;
+	max-height:400px;
+	background-color:grey;
+	padding-top:20px;
+	color:white;
+	font-size:1.2em;
+	display:flex;
+	flex-direction:row;
+}
+
+.footerleft
+{
+	padding-left:6%;
+}
+
+.footercenter
+{
+	padding-left:22%;
+}
+
+.footerright
+{
+	padding-left:30%;
+}
+
+.eye
+{
+	padding-left:5%;
+	overflow:hidden;
+}
+
+.space
+{
+	padding-left:20%;
+}
+
+.imgMeda
+{
+	width:70px;
+	height:70px;
+}
+
+.orange
+{
+	color:orange;
+}
+
+.one
+{
+	height:400px;
+}
+
+.getrewardp
+{
+	height:300px;
+	overflow:hidden;
+}
+
+.getrewardimg,.EyeWantYou,.or
+{
+	overflow:hidden;
+	height:140px;
+	width:140px;
+}
+
+.getimgrew
+{
+	height:200px;
+	width:200px;
+}
+
+.card,.getreward,.cache
+{
+	overflow:hidden;
+}
+
+@media all and (max-width: 576px) {
+    body
+  {
+    background-color:grey;
+  }
+}
