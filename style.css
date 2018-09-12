@@ -281,8 +281,20 @@ textarea
 }
 
 @media all and (max-width: 576px) {
-    body
+    .cache,.medias
   {
-    background-color:grey;
+    display:flex;
+	flex-direction:column;
   }
+	.space
+	{
+	padding-left:4%;
+	}
+	
+	.more
+	{
+		width:51%;
+		overflow:hidden;
+	}
+	
 }
