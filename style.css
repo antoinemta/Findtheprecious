@@ -51,6 +51,7 @@
 {
 	padding-left:6%;
 	padding-right:100px;
+	overflow:hidden;
 }
 
 .button,.slit,.aCenter
